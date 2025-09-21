@@ -1,0 +1,22 @@
+{
+  "name": "tarea-typescript-bloque5",
+  "version": "1.0.0",
+  "private": true,
+  "type": "commonjs",
+  "scripts": {
+    "instalar": "npm install",
+    "preparar": "npx tsc --version && echo Proyecto listo",
+    "ejecutar:ejercicio1": "ts-node ejercicio1/index.ts",
+    "ejecutar:ejercicio2": "ts-node ejercicio2/index.ts",
+    "ejecutar:ejercicio3": "ts-node ejercicio3/index.ts",
+    "ejecutar:ejercicio4": "ts-node ejercicio4/index.ts",
+    "ejecutar:ejercicio5": "ts-node ejercicio5/index.ts",
+    "compilar": "tsc",
+    "compilar:y:ejecutar": "tsc && node dist/index.js"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5",
+    "@types/node": "^20.12.7"
+  }
+}
